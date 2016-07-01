@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Cobranzas Malaga</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_title">Número de cobrador</string>
+    <string name="login_button">Ingresar</string>
+    <string name="example">Example</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="pay_label">Pago:</string>
+    <string name="name_label">Nombre:</string>
+    <string name="address_label">Dirección:</string>
+    <string name="phone_label">Teléfono:</string>
+    <string name="debt_label">Deuda:</string>
+    <string name="txt_payment_button">Cobrar</string>
+    <string name="search_label">Búsqueda:</string>
+    <string name="action_search">Buscar</string>
+</resources>

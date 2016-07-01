@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.PaymentFragment"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/label_size">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_payment"
+            android:inputType="number"
+            android:hint="Pago"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_pay"
+            android:text="@string/txt_payment_button"/>
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>
